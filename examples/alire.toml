@@ -1,0 +1,13 @@
+name = "examples"
+description = "Shiny new project"
+version = "0.0.0"
+
+authors = ["Holger Rodriguez"]
+maintainers = ["Holger Rodriguez <github@roseng.ch>"]
+maintainers-logins = ["hgrodriguez"]
+
+executables = ["examples"]
+[[depends-on]]  # Added by alr
+rp2040_hal = "^1.3.0"  # Added by alr
+[[depends-on]]  # Added by alr
+gnat_arm_elf = "^11.2.3"  # Added by alr

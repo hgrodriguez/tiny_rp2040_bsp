@@ -91,4 +91,6 @@ project Tiny_Rp2040_Bsp is
       for Switches ("Ada") use ("-Es"); --  Symbolic traceback
    end Binder;
 
+   Linker_Switches := RP2040_HAL.Linker_Switches;
+
 end Tiny_Rp2040_Bsp;

@@ -124,8 +124,8 @@ package Tiny is
    --------------------------------------------------------------------------
    --  just convenient definitions for the ports
    SPI    : RP.SPI.SPI_Port renames RP.Device.SPI_0;
-   I2C_0  : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2C_0;
-   I2C_1  : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2C_1;
+   I2C_0  : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2CM_0;
+   I2C_1  : RP.I2C_Master.I2C_Master_Port renames RP.Device.I2CM_1;
    UART_0 : RP.UART.UART_Port renames RP.Device.UART_0;
    UART_1 : RP.UART.UART_Port renames RP.Device.UART_1;
 

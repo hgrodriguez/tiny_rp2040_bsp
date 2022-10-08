@@ -2,7 +2,7 @@ with "config/tiny_rp2040_bsp_config.gpr";
 with "rp2040_hal.gpr";
 project Tiny_Rp2040_Bsp is
 
-   for Runtime ("Ada") use "zfp-cortex-m0p";
+   for Runtime ("Ada") use "light-cortex-m0p";
    for Target use "arm-eabi";
 
    for Library_Name use "Tiny_Rp2040_Bsp";
